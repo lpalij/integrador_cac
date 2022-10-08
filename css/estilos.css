@@ -1,0 +1,454 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-decoration: none;
+}
+
+.header_gris{
+display: flex;
+justify-content:center;
+background-color:rgb(53,58,64);
+width: 100%;
+text-decoration: none;
+margin-right: 30px;
+font-size: 1rem;
+}
+
+#carouselExampleSlidesOnly{
+    opacity: 0,5;   
+}
+
+.logo{
+display:flex;
+align-items: center;
+width:50%;
+padding-left:2.2rem;
+color:white
+}
+
+.img_logo{
+width: 25%;
+
+}
+.navegador{
+width:50%;
+display: flex;
+align-items: center;
+justify-content:space-between;
+margin-right: 7%;
+font-size: 1rem;
+
+}
+
+.container{
+    text-align: center;
+    width: 90%;
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-content: space-between;
+    color: white;
+}
+
+.link{
+
+color:rgb(155,156,158);
+font-size: 1,2rem;
+}
+
+.imagenMain{
+width:100%;
+position: relative;
+}
+
+.btn-success{
+    background-color: rgb(41,167,68);
+}
+.sectionDividida{
+display: flex;
+height: 70vh;
+padding-top: 25px;
+text-align: center;
+
+}
+.imagenIzq{
+height:100%;
+width:50%;
+background-image: url("../assets/images/OBELISCO\ BA.jpg");
+background-image: linear-gradient(0,0,0,0.69);
+background-image: cover;
+background-size: cover;
+}
+
+.sobrebsas{
+    text-align: left;
+    margin-left: 10px;
+    justify-content: left;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+.row{
+    text-decoration: none;
+}
+
+.rowImagen{
+height:70vh;
+}
+.alto{
+height:100%;
+}
+
+.contenido{
+padding:2rem ;
+background-color: #343333;
+color:white;
+font-size: 1.5rem;
+
+}
+
+h1{
+    margin-right: 60px;
+}
+
+.previo_form{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+        
+}
+.formulario{
+    padding-left: 30%;
+}
+
+.contenidoDer{
+height:100%;
+width:50%;
+padding:2rem ;
+background-color: rgb(53,58,64);
+color: white;
+font-size: 1.2rem;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.sectionTarjetas{
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: left;
+margin-top: 23%;
+padding-top: 20px;
+text-align: center;
+
+}
+
+#LosOradores{
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-top: 23%;
+    padding-top: 20px;
+    
+}
+
+.know{
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.orador{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.padreTarjetas{
+width:100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+}
+
+.tarjetas__flex{
+width:80%;
+display:flex;
+justify-content:space-between;
+
+}
+.tarjeta{
+background-color: white;
+width: 30%;
+border:1px solid rgb(214, 214, 214);
+border-radius: 10px;
+
+}
+.tarjetaImagen{
+width: 100%;
+border-radius: 10px;
+}
+.tarjetaContenido{
+padding:1rem;
+}
+.tarjetaParrafo{
+width:80%;
+margin-top: 10px;
+text-align: left;
+justify-content: left;
+}
+.section_principal{
+/*
+background-image: linear-gradient(to right,rgba(0, 0, 0, 0.61),rgb(0 0 0 /.5)), url("../assets/images/ba1.jpg");
+background-size: cover;*/
+background-position: center;
+height:70vh;
+width: 100%;
+display: flex;
+justify-content:flex-end;
+align-items:center;
+position: relative;
+
+}
+
+.parrafo_img{
+padding-top: 50px;
+padding-left: 20px;
+justify-content: right;
+padding-left: 60%;
+margin-right: 60px;
+
+}
+
+.contenidoPrincipal{
+width: 100%;
+text-align: right;
+color:white;
+margin-right: 60px;
+position: absolute;
+margin-top: 50px;
+}
+
+
+.link_main{
+border-bottom: white
+}
+
+footer{
+    background-color:rgb(30,79,109);
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    display: flex;
+    text-decoration: none;
+    
+}
+
+.buttom_send{
+    border: 1px; 
+    padding: 5px;
+    width: 50%;
+    background-color: rgb(150,201,62);
+    color: white;
+}
+.verde{
+    color: rgb(40, 167,64);
+}
+h3{
+    text-align: left;
+    justify-content: left;
+    margin-left: 10px;
+}
+.nombre{
+    width: 24%;
+    
+}
+.apellido{
+    width: 25%;
+}
+.recuerda{
+    width: 50%;
+    border: none
+     
+}
+h2{
+    font-weight: 100;
+}
+
+@media screen and (max-width: 900px){
+.header__flex{
+    flex-direction:column;
+
+}
+.logo{
+width:100%;
+justify-content:space-between;
+padding-left:0;
+}
+
+.navegador{
+width:100%;
+flex-direction: column;
+
+}
+.link{
+display:inline-block;
+padding:1rem;
+border-bottom: 1px solid white;
+width:100%;
+font-family: Arial, Helvetica, sans-serif
+text-decoration: none;
+}
+
+.sectionPrincipal{
+justify-content:center;
+}
+.parrafoPrincipal{
+line-height:1.5rem;
+}
+.contenidoPrincipal{
+width: 80%;
+text-align: center;
+
+}
+
+h1{
+font-size: 2rem;
+margin-right: 60px;
+}
+.oradores{
+justify-content: center;
+text-align: center;
+}
+
+
+.tarjetas__flex{
+flex-direction: column;
+}
+.tarjeta{
+width: 100%;
+margin-bottom:1rem;
+box-shadow: -7px -7px 50px 6px rgba(0,0,0,0.54);
+    -webkit-box-shadow: -7px -7px 50px 6px rgba(0,0,0,0.54);
+    -moz-box-shadow: -7px -7px 50px 6px rgba(0,0,0,0.54);
+}
+.sectionDividida{
+flex-direction: column;
+}
+.imagenIzq{
+width:100%;
+
+}
+.contenidoDer{
+width:100%;
+}
+.alto{
+height:50%;
+}
+.contenido{
+    font-size: 1rem;
+}
+
+
+@media  (min-width: 320px) and (max-width: 480px){
+
+
+    
+.header_gris{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-left: 23px;
+    margin-right: 0 auto;
+}
+.section_principal{
+
+    font-size: x-small;
+    text-align: right;
+    
+   
+}
+.contenidoPrincipal{
+    /*padding-top: 60%;
+    text-align:right;
+    flex-direction: row;
+    justify-content: right;
+  margin-top: 0%;*/
+    display: none;
+   
+}
+
+
+.parrafoPrincipal{
+    display: none;
+    font: hidden;
+}
+.previo_form{
+    padding-top: 20px;
+}
+
+.formulario{
+    display: contents;
+    flex-wrap: wrap;
+    justify-content: left;
+    justify-items: center;
+    font-size: 10px;
+    text-align: left;
+    width: 100%;
+    margin-left: 10px;
+    padding-right: 50%;
+    padding-left: 10px;
+}
+
+.padreTarjetas{
+width: 100%;
+justify-content: center;
+justify-items: center;
+align-content: center;
+padding-left: 60px;
+font-size: smaller;
+padding-bottom: 0;
+margin-bottom: 0;
+padding-top: 0;
+margin-top: 0%;
+
+}
+
+.imagenIzq{
+    width: 100%;
+   font-display: block;
+}
+
+.contenidoDer{
+    font-size: 1em;
+    font-display: flex-start;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.parrafoPrincipal{
+    text-align: left;
+    justify-content: right;
+}
+
+.oradores{
+    padding-left: 60px;
+}
+.header_gris{
+
+    padding-right: 23px;
+
+}
+
+footer{
+    display:flex;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+}
+
+
+    
+}
