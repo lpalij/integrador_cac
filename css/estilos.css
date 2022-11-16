@@ -16,6 +16,14 @@ margin-right: 30px;
 font-size: 1rem;
 }
 
+
+
+.text_header{
+    font-size: 1.3rem;
+    margin: top 10px;
+    padding-top: 10px;
+}
+
 #carouselExampleSlidesOnly{
     opacity: 0,5;   
 }
@@ -25,6 +33,7 @@ display:flex;
 align-items: center;
 width:50%;
 padding-left:2.2rem;
+padding-top: 1,5rem;
 color:white
 }
 
@@ -111,6 +120,11 @@ h1{
     margin-right: 60px;
 }
 
+.container{ 
+    text-align: center;
+
+}
+
 .previo_form{
     text-align: center;
     font-size: 1rem;
@@ -120,6 +134,7 @@ h1{
 .formulario{
     padding-left: 30%;
 }
+
 
 .contenidoDer{
 height:100%;
@@ -170,12 +185,66 @@ align-items: center;
 margin-top: 10px;
 }
 
+.cards-group{
+    justify-content: center;
+    text-align: center;
+    -webkit-text-size-adjust: 100%;
+}
+
+.card-text{
+    align-items: center;
+    
+}
+h6{
+font-weight: bolder;
+}
+
+h5{
+    font-size: 1.5rem;
+}
+
+.dto{
+    font-size: 1.1rem;
+    font-weight: 100;
+    font-weight: lighter;
+}
+.card-body{
+    text-align: center;
+    justify-content: center;
+
+}
+
+.recuadros{
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    padding-top: 20%;
+}
+
+.col-sm-6{
+    justify-content: space-between;
+    display: flex;
+
+}
+
 .tarjetas__flex{
 width:80%;
 display:flex;
 justify-content:space-between;
-
 }
+
+.card_main{
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50%;
+    align-content: space-between;
+}
+
 .tarjeta{
 background-color: white;
 width: 30%;
@@ -242,6 +311,28 @@ footer{
     text-decoration: none;
     
 }
+.button_send{
+    background-color: rgb(150,201,62);
+    width: 50%;
+    padding: 5px;
+}
+.btn-success{
+    width: 100%;
+    background-color: rgb(151,201,62);
+    
+}
+
+.valor_principal{
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+
+.btnBorrar{
+    background-color: rgb(150,201,62);
+    width: 50%;
+    padding: 5px;
+}
 
 .buttom_send{
     border: 1px; 
@@ -270,6 +361,7 @@ h3{
     border: none
      
 }
+
 h2{
     font-weight: 100;
 }
@@ -296,7 +388,7 @@ padding:1rem;
 border-bottom: 1px solid white;
 width:100%;
 font-family: Arial, Helvetica, sans-serif
-text-decoration: none;
+text-decoration none;
 }
 
 .sectionPrincipal{
@@ -451,4 +543,4 @@ footer{
 
 
     
-}
+}}
